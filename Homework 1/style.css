@@ -1,0 +1,136 @@
+
+/*HEADER
+-----------------*/
+.header{
+	background: black;
+
+}
+
+.header a{
+	background: black;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+.pink a:hover{
+	color:pink;
+}
+.purple a:hover{
+	color: purple;
+}
+.blue a:hover{
+	color:blue;
+}
+.red a:hover{
+	color:red;
+}
+.orange a:hover{
+	color:orange;
+}
+.header .ptright{
+	color: white;
+	background: black;
+	position: absolute;
+	right: 5px;
+}
+.header .sep{
+	color:black;
+}
+
+/*MAIN
+----------------------
+------------------------*/
+
+#first p,#second p, #third p{
+	margin-left: 40px;
+	margin-right: 10%;
+	margin-bottom: 0px;
+	font-size: 150%;
+	max-width: 900px;
+	float: left;
+}
+
+
+.whole table,.whole th, .whole td
+{
+	border: 5px solid black;
+	margin-bottom: 0px;
+}
+.center{
+	text-align: center;
+}
+.whole th,.whole td{
+	padding: 3px;
+}
+.whole {
+	font-family: Georgia,sans-serif;
+	color:white;
+
+}
+.para{
+	height: 25px;
+	width:100px;
+}
+
+}
+.whole ul{
+	color: orange;
+	size: 100px
+}
+.whole h1,.whole h2{
+	color: white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.whole h1{
+	color: black;
+}
+#first{
+	background-image:url("mebackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.alpha{
+	background: rgba(0,119,181,.5);
+}
+#second{
+	background-image:url("auburnbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#second a, #third a{
+	margin-left: 7%;
+	font-size: 50px;
+	color: white;
+}
+#second a:hover{
+	color:orange;
+}
+#third a:hover{
+	color:red;
+}
+#second ul, #thrd ul,.shift{
+	margin-left: 75%;
+	font-size: 150%;
+}
+#third{
+	background-image:url("deathnotebackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#fourth{
+	background-image:url("bojackbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background:rgb(24,67,195);
+}
+
+
+/*FOOTER IS HANDLED USING A DOCUMENT STYLESHEET. REFER TO THE HEAD OF INDEX.HTML*/
+
+
+
